@@ -1,0 +1,192 @@
+
+.header{
+    width:100%;
+    height:0.91rem;
+    margin:0 auto;
+    background: #ff6700;
+}
+.container{
+    width:7.02rem;
+    height:100%;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 0.91rem;
+    margin:0 auto;
+}
+.container .self{
+    width:3rem;
+    margin-left:1.5rem;
+    float: left;
+}
+.container .left{
+    width:0.4rem;
+    height:0.4rem;
+    float:left;
+}
+ .left img{
+    width:0.39rem;
+    height:0.39rem;
+
+}
+.container .message{
+    width:0.4rem;
+    height:0.4rem;
+    float: right;
+    margin-left: 0.08rem;
+}
+.message img{
+    width:0.4rem;
+    height:0.4rem;
+
+}
+.container .right{
+    width:0.4rem;
+    height:0.4rem;
+    float: right;
+}
+ .right img{
+     width:0.39rem;
+     height:0.39rem;
+}
+ .content{
+     width:7.02rem;
+     height:4rem;
+     margin: 0 auto;
+     padding-top: 0.76rem;
+ }
+ .content .art{
+     width:1.98rem;
+     height:1.98rem;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 50%;
+     box-shadow: 0px 2px 18px 0px
+     rgba(199, 199, 199, 0.74);
+ }
+ .content .art img{
+     width:1.98rem;
+     height:1.98rem;
+ }
+ .content p{
+     text-align: center;
+     line-height: 0.23rem;
+     margin-top: 0.2rem;
+     font-size: 16px;
+ }
+ .nav{
+     width:7.02rem;
+     height:1.5rem;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .nav .navList{
+     width:1.5rem;
+     height:1.5rem;
+ }
+ .navList .pic{
+     width:0.58rem;
+     height:0.58rem;
+     margin:0.2rem auto;
+ }
+.navList .pic img{
+    width:0.58rem;
+    height:0.58rem;
+}
+.navList h5{
+    text-align: center;
+    font-size: 14px;
+
+}
+/*menu*/
+.menu{
+    width:7.02rem;
+    height:3.9rem;
+    border-top: 1px solid rgba(90, 93, 91, 0.09);
+    margin:0.2rem auto;
+}
+.menu .topMenu{
+    width: 100%;
+    height:0.4rem;
+    line-height: 0.4rem;
+    font-size: 16px;
+}
+.menu .bottomMenu{
+    width:100%;
+    height:3.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.bottomMenu .menuList{
+    width:1.75rem;
+    height:1.75rem;
+}
+.menuList .pic{
+    width:0.56rem;
+    hieght:0.56rem;
+    margin:0.2rem auto;
+}
+.menuList img{
+    width:0.56rem;
+    height:0.56rem;
+}
+.menuList p{
+    text-align: center;
+}
+.vip{
+    width:7.02rem;
+    height:1.97rem;
+    border-top: 1px solid rgba(90, 93, 91, 0.09);
+}
+.vip .topVip{
+    width: 100%;
+    height:0.4rem;
+    line-height: 0.4rem;
+    font-size: 16px;
+}
+.vip .bottomVip{
+    height:1.57rem;
+    width:100%;
+}
+.bottomVip .vipList{
+    width:1.75rem;
+    height:1.75rem;
+    float: left;
+}
+.vipList .pic{
+    width:0.56rem;
+    height:0.56rem;
+    margin:0.2rem auto;
+
+}
+.vipList .pic img{
+    width:0.56rem;
+    height:0.56rem;
+}
+.vipList p{
+    text-align: center;
+}
+.footer{
+    width:100%;
+    height:0.98rem;
+    margin:0.6rem auto 0;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 13px 0 rgba(192,191,191,0.44);
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.footItem{
+    width:0.42rem;
+    height:0.98rem;
+    font-size: 10px;
+}
+.footItem img{
+    width:0.42rem;
+    height:0.42rem;
+    margin-top: 0.21rem;
+}

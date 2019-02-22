@@ -1,0 +1,170 @@
+#big{
+    width:100%;
+    height:100%;
+}
+.header{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    background-image: linear-gradient(95deg,
+    #e79539 0%,
+    #f55611 100%);
+}
+.container{
+    width:7.02rem;
+    height:0.91rem;
+    margin:0 auto;
+}
+.container .pic{
+    float: left;
+    width:0.4rem;
+    height:0.4rem;
+    margin-top: 0.25rem;
+}
+.container .pic img{
+    width:0.4rem;
+    height:0.4rem;
+
+}
+.header .headText{
+    width:7.02rem;
+    height:1.92rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.headText .address{
+    width:7.02rem;
+    height:0.5rem;
+    margin-left: 0.15rem;
+}
+.address .place{
+    float: left;
+    font-size: 16px;
+    line-height: 0.5rem;
+}
+.address .school{
+    float: left;
+    font-size: 16px;
+    line-height: 0.5rem;
+}
+.address .location{
+    font-size: 18px;
+    line-height: 0.5rem;
+}
+.address .name{
+    font-size: 14px;
+    float: left;
+    line-height: 0.5rem;
+}
+.address .phone{
+    float: left;
+    font-size: 14px;
+    line-height: 0.5rem;
+}
+.footer{
+    width:100%;
+    height:10.5rem;
+    background: #f7f7f7;
+    margin:0 auto;
+    padding-top: 0.27rem;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.footer .footerTop{
+    width:7.02rem;
+    height:1.95rem;
+    background: #fcfafa;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerTop .arrivedTime{
+    width:6.34rem;
+    height:0.98rem;
+    margin:0 auto;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.arrivedTime .arrive{
+    width:6.34rem;
+    height:0.5rem;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 0.5rem;
+}
+.arrive .timeOne{
+    float: left;
+}
+.arrive .timeTwo{
+    float:right;
+    color:#f7a544;
+
+}
+.arrivedTime .service{
+    color:#f7a544;
+    opacity: 0.71;
+    font-size: 14px;
+}
+.footerTop .pay{
+    width:6.34rem;
+    height:0.94rem;
+    margin: 0 auto;
+}
+.pay .payWay{
+    line-height: 0.94rem;
+    font-size: 16px;
+    float: left;
+}
+.pay .payList{
+    line-height: 0.94rem;
+    font-size: 16px;
+    float: right;
+    color:#e89137;
+}
+.footer .footerBottom{
+    width:7.02rem;
+    height:6.94rem;
+    background: #fcfafa;
+    border-radius: 3px;
+    margin:0.27rem auto;
+}
+.footerBottom .change{
+    width:6.28rem;
+    height:1.06rem;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.06rem;
+    border-bottom: 1px dotted rgba(0,0,0,0.1);
+}
+.footerBottom .changeList{
+    width:7.02rem;
+    height:5.86rem;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.changeList .listItem{
+    width:5.5rem;
+    height:1.15rem;
+    border-bottom: 1px dotted rgba(0,0,0,0.1);
+}
+.listItem img{
+    width:0.44rem;
+    height:0.44rem;
+    float: left;
+    margin-top: 0.35rem;
+}
+.listItem p{
+    float: left;
+    line-height: 1.15rem;
+    margin-left:0.1rem;
+    font-size: 16px;
+}
+.changeList .lastItem{
+    border-bottom:none;
+}

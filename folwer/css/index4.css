@@ -1,0 +1,237 @@
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #ffffff;
+    position:fixed;
+    left: 0;
+    top: 0;
+    z-index:999;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+
+    margin: 0 auto;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+
+}
+
+.navList li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: .5s;
+
+}
+
+.navList li a:hover {
+    color: #16b0bc;
+}
+
+/*nav样式*/
+.banner{
+    width:100%;
+    height:90px;
+    background: #f1f1f1;
+    text-align: center;
+    font-size: 35px;
+    color:#f67a82;
+    line-height:90px;
+    margin-top: 79px;
+}
+/*content*/
+.content {
+    width: 100%;
+    height: 1100px;
+    background: #f1f1f1;
+}
+.container{
+    width:1226px;
+    height:1000px;
+    margin:0 auto;
+    padding-top:20px;
+}
+/*左*/
+.container .containerLeft{
+    float:left;
+    width:816px;
+    height:980px;
+    background: #FFFFFF;
+    padding: 20px;
+}
+.containerLeft .listItem{
+    width:816px;
+    height:60px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding-top: 10px;
+}
+.containerLeft .listItemNext{
+    width:816px;
+    height:140px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.listItemNext .otherContent{
+    width: 692px;
+    height: 21px;
+    font-size: 14px;
+    background: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.listItem .pic{
+    width:40px;
+    height:40px;
+    float: left;
+    background: #cccccc;
+    border-radius: 50%;
+}
+.pic img{
+    width:35px;
+    height:35px;
+}
+.listItem .itemRight{
+    float: left;
+    width:766px;
+    height:60px;
+    padding-left: 10px;
+}
+.itemRight .top{
+    width:100%;
+    height:30px;
+}
+.top .name{
+    float: left;
+    font-size: 14px;
+}
+.top .time{
+    float: right;
+    opacity: 0.5;
+    font-size: 12px;
+}
+.itemRight .comments{
+    opacity: 0.8;
+    font-size: 12px;
+}
+/*右*/
+.container .containerRight{
+    float:right;
+    width:300px;
+    height:420px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    padding:10px;
+}
+.containerRight .containerS {
+    width: 100%;
+    height: 100%;
+}
+
+.containerS .name, .containerS .telephone, .containerS .email{
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+}
+
+.name input, .telephone input, .email input {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.containerS .message{
+    width: 100%;
+    height: 124px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+}
+.message textarea{
+    border: none;
+}
+textarea:focus{
+    outline: none;
+}
+.containerS .code {
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f2f5;
+}
+.code input{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+.code .codeIcon{
+    float: right;
+    width: 91px;
+    height: 26px;
+    padding: 5px 10px;
+    background: #f3f7f9;
+}
+.codeIcon img{
+    width: 100%;
+    height: 100%;
+}
+.containerS button{
+    color: #ffffff;
+    width: 100%;
+    height: 36px;
+    background: #62a8ea;
+    border: none;
+}
+
+
+.footer{
+    width:100%;
+    height:160px;
+    margin-top: 20px;
+    background: #f1f1f1;
+}
+.footer .art{
+    height:50px;
+}
+.footer .art img{
+    margin:30px auto;
+    width:35px;
+    height:35px;
+    margin-bottom: 20px;
+}
+.footer .area a{
+    text-align: center;
+    line-height: 60px;
+    color: #16b0bc;
+    font-size: 12px;
+}
+.footer .area a:hover{
+    text-decoration: underline;
+    color: #16b0bc;
+}
+.footer ,p.foot {
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,368 @@
+.head{
+    width:100%;
+    height:1.8rem;
+    margin:0 auto;
+    background: #e89137;
+}
+.container{
+    width:7.02rem;
+    height:0.91rem;
+    margin:0 auto;
+    padding-top: 0.24rem;
+}
+.container .back{
+    width:0.32rem;
+    height:0.37rem;
+    float: left;
+}
+.back img{
+    width:0.32rem;
+    height:0.37rem;
+}
+.container .searchBox{
+    width:4.92rem;
+    height:0.4rem;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 17px;
+    margin-left: 0.6rem;
+    border: solid 2px #ffffff;
+    opacity: 0.18;
+}
+.searchBox input{
+    border:none;
+}
+.searchBox input:focus{
+    outline: none;
+}
+.searchBox .searchPic{
+    float: left;
+    width:0.3rem;
+    height:0.3rem;
+    margin-top: 0.07rem;
+    margin-left:0.1rem;
+    color:#333333;
+    font-family: "iconfont";
+
+}
+
+.searchBox input{
+    margin-left:0.1rem;
+    outline:hidden;
+    border: none;
+}
+.container .collect{
+    width:0.55rem;
+    height:0.55rem;
+    float: right;
+    margin-right: 0.1rem;
+}
+.collect img{
+    width:0.55rem;
+    height:0.55rem;
+    padding-top: 0;
+}
+.container .share{
+    width:0.35rem;
+    height:0.35rem;
+    float: right;
+
+}
+.share img{
+    width:0.35rem;
+    height:0.35rem;
+    padding-top: 0.05rem;
+}
+.footer{
+    width:7.5rem;
+    height:10.46rem;
+    margin:0 auto;
+    background: #ffffff;
+    padding-top: 0.88rem;
+    position:relative;
+}
+.bar{
+    width:5.84rem;
+    height:1.58rem;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px 0px
+    rgba(70, 70, 71, 0.74);
+    position:absolute;
+    left:0.83rem;
+    top:-0.8rem;
+    padding: 0.1rem ;
+}
+.bar .barBox{
+    width:3.75rem;
+    height:1.38rem;
+    float: left;
+}
+.barBox .barTitle{
+    font-size: 14px;
+}
+.barBox .barContent{
+    width:3.75rem;
+    height:0.28rem;
+}
+.barBox .barContent p,img{
+    float: left;
+    margin-right: 0.1rem;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.barContent img{
+    width:0.19rem;
+    height:0.19rem;
+    margin-top: 0.05rem;
+}
+.barBox .barTip{
+    font-size: 10px;
+}
+.barBox .barBottom{
+    width:3.75rem;
+    height:0.42rem;
+    display: flex;
+    justify-content: space-around;
+}
+.barBottom .text{
+    width:0.75rem;
+    height:0.23rem;
+    border-radius: 3px;
+    border: solid 1px #f15e2a;
+    opacity: 0.84;
+    font-size: 10px;
+    color:#f15e2a;
+    margin-top: 0.1rem;
+    line-height: 0.23rem;
+}
+.bar .barPic{
+    width:1.14rem;
+    height:1.14rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    margin:0.1rem 0.2rem;
+}
+.barPic img{
+    width:1.14rem;
+    height:1.14rem;
+}
+.footer .title{
+    width:7.02rem;
+    height:0.8rem;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.title .first{
+    border-bottom: 5px solid #e89137;
+}
+.title .titleBox{
+    width:1rem;
+    height:0.8rem;
+    text-align: center;
+    font-size: 14px;
+    line-height: 0.8rem;
+}
+.footer .banner{
+    width:6.52rem;
+    height:1.74rem;
+    background: #e79539;
+    border-radius: 30px;
+    opacity: 0.85;
+    margin: 0.2rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner .bannerLeft{
+    width:1.46rem;
+    height:1.46rem;
+    background: #C3E40B;
+    border-radius: 50%;
+}
+.bannerLeft img{
+    width:1.46rem;
+    height:1.46rem;
+}
+.banner .bannerMiddle{
+    width:3rem;
+    height:1.46rem;
+    text-align: center;
+}
+.bannerMiddle .bannerText{
+    font-size: 16px;
+    color:#000000;
+    opacity: 0.88;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+.bannerMiddle .bannerTextone{
+    background: black;
+    width:2rem;
+    height:0.32rem;
+    color:#FFFFFF;
+    margin:0.1rem auto;
+}
+.banner .bannerRight{
+    width:1.46rem;
+    height:1.46rem;
+    background: #C3E40B;
+    border-radius: 50%;
+}
+.bannerRight img{
+    width:1.46rem;
+    height:1.46rem;
+}
+.footer .content{
+    width:7.5rem;
+    height:6.96rem;
+    /*background: red;*/
+}
+.content .contentLeft{
+    width:1.49rem;
+    height:6.96rem;
+    background: #b5b5b5;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contentLeft ul li{
+    width:1.04rem;
+    height:0.8rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-left: 0.22rem;
+    text-align: center;
+    line-height: 0.8rem;
+    opacity: 0.85;
+}
+.contentLeft ul li a:hover{
+    color:#ff6700;
+}
+.content .contentRight{
+    float: right;
+    width:6.01rem;
+    height:6.96rem;
+}
+.contentRight .hot{
+    width:100%;
+    height:0.5rem;
+    line-height: 0.5rem;
+    font-size: 16px;
+    padding-left: 0.05rem;
+}
+.contentRight .order{
+    width:100%;
+    height:6.46rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.order .orderItem{
+    width:5.15rem;
+    height:1.5rem;
+
+}
+.orderItem .art{
+    width:1.5rem;
+    height:1.5rem;
+    float: left;
+}
+.art img{
+    width:1.5rem;
+    height:1.5rem;
+}
+.orderItem .itemRight{
+    float: left;
+    width:3.65rem;
+    height:1.5rem;
+}
+.itemRight .foodName{
+    font-size: 14px;
+}
+.itemRight .number{
+    font-size: 12px;
+    text-decoration: underline;
+    color:#050505;
+    opacity: 0.7;
+}
+.itemRight .month{
+    float: left;
+    margin-right: 0.1rem;
+}
+.itemRight .month,.good{
+    color: #050505;
+    opacity: 0.71;
+}
+.itemRight .foodprice{
+    width:100%;
+    font-size: 14px;
+    color: #e79539;
+    margin-top: 0.1rem;
+    float: left;
+}
+.foodprice del{
+    font-size: 12px;
+    color: #050505;
+    opacity: 0.7;
+}
+.itemRight .add{
+    float: right;
+    width:0.34rem;
+    height:0.34rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.32rem;
+    background: #e79539;
+    color: #050505;
+}
+
+.footer .end{
+    width:100%;
+    height:1.13rem;
+    padding-top: 0.3rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px 0px
+    rgba(70, 70, 71, 0.29);
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+.end .car{
+    float: left;
+    width:0.53rem;
+    height:0.53rem;
+    margin-left: 0.5rem;
+}
+.car img{
+    width:0.53rem;
+    height:0.53rem;
+}
+.end .money{
+    width:1.88rem;
+    height:0.53rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.money .price{
+    font-size: 12px;
+}
+.money .littlePrice{
+    font-size: 10px;
+    opacity: 0.5;
+}
+.end .button{
+    width: 1.48rem;
+    height: 0.51rem;
+    float: right;
+    background-color: #7d7d7d;
+    border-radius: 15px;
+    margin-right: 0.5rem;
+    text-align: center;
+    line-height: 0.51rem;
+    font-size: 14px;
+}

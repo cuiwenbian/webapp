@@ -1,0 +1,130 @@
+.box{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+    padding-top:3.06rem;
+    background:rgba(0,0,0,0.1);
+}
+.box .backgroundPic{
+    width:4.63rem;
+    height:3.86rem;
+    position:absolute;
+    top:0.1rem;
+    right:0.1rem;
+}
+.backgroundPic img{
+    width:4.63rem;
+    height:3.86rem;
+}
+.box .backgroundPic-2{
+    width:1.61rem;
+    height:1.33rem;
+    position:absolute;
+    bottom: 0.1rem;
+    left:0.1rem;
+}
+.backgroundPic-2 img{
+    width:1.61rem;
+    height:1.33rem;
+}
+.box .back{
+    width:0.4rem;
+    height:0.6rem;
+    position:absolute;
+    top:0.5rem;
+    left:0.5rem;
+}
+.back img{
+    width:0.4rem;
+    height:0.6rem;
+}
+.box .main{
+    width: 6.1rem;
+    height: 6.71rem;
+    margin:0 auto;
+    padding-top:0.85rem;
+    padding-left:0.65rem;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 18px 0px
+    rgba(197, 196, 195,0.74);
+}
+.main .user,.main .pwd{
+    text-align:left;
+    font-size:16px;
+    font-weight: bold;
+    color:#040404;
+    opacity: 0.8;
+    margin-bottom: 0.45rem;
+}
+.main .userText,.pwdText{
+    width:4.79rem;
+    height:0.55rem;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 0.55rem;
+}
+.userText input,.pwdText input{
+    border: none;
+}
+.userText input:focus,.pwdText input:focus{
+    outline: none;
+}
+.main .tip{
+    width:4.79rem;
+    height:0.32rem;
+}
+.tip .circle{
+    float: left;
+    width:0.32rem;
+    height:0.32rem;
+    border-radius: 50%;
+    font-size: 14px;
+    color:#FFFFFF;
+    line-height: 0.32rem;
+    text-align:center;
+    background-image: linear-gradient(153deg,
+    #fe1f53 0%,
+    #f35a5a 100%);
+}
+.tip .forget{
+    float: left;
+    margin-left: 0.1rem;
+    color:#040404;
+    opacity: 0.8;
+}
+.tip .regist{
+    float: right;
+    color:#040404;
+    opacity: 0.8;
+}
+.box .button{
+    width:2.12rem;
+    height:0.73rem;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 18px 0px
+    rgba(206, 204, 204, 0.81);
+    text-align: center;
+    font-size: 20px;
+    line-height: 0.73rem;
+    margin:0.35rem auto;
+}
+.box p{
+    color:#040404;
+    opacity: 0.81;
+    text-align: center;
+}
+.box .art{
+    width:2.5rem;
+    height:0.61rem;
+    margin:0.25rem auto;
+}
+.art .qq img{
+    width:0.61rem;
+    height:0.61rem;
+    float: left;
+}
+.art .weixin img{
+    width:0.61rem;
+    height:0.61rem;
+    float:right;
+}
